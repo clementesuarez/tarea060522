@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.navbar {
+    background: rgba(0, 0, 0, 0.617);
+    color: white;
+    width: 85vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar {
+    background: rgb(204, 203, 209);
+    color: white;
+    width: 85vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar ul {
+    list-style: none;
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline-block;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    color: white;
+}
+
+.navbar ul li a:hover {
+    background: white;
+    color: rgb(241, 240, 247)
+}
+
+.banner-top {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    background: black;
+    color: white;
+    height: 80px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    background-color: #000000;
+    color: #f8f8f8;
+    font-family: Work Sans, sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.texthtml {
+    padding-top: 25%;
+}
+
+.textcss {
+    padding-top: 10%;
+    margin-bottom: 20px;
+}
+
+.textjavascript {
+    padding-top: 10%;
+}
+
+.imagen {
+    height: 500px;
+    overflow: hidden;
+    width: 500px;
+    margin: auto;
+    display: auto;
+    justify-content: space-around;
+    padding-right: 200%;
+    text-align: 20%;
+}
+
+.textoimg {
+    padding-right: auto;
+    padding-left: auto;
+    text-align: 20%;
+    padding-top: 0%;
+}
+
+.footertexto {
+    margin-top: 5%;
+    color: rgb(174, 162, 162);
+}
+
+.footer {
+    margin-top: 5%;
+    background: black;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-inline-end: auto%;
+    border: 0.5px white solid;
+}
+
+
+/* el responsive*/
+
+@media screen and (min-width: 660px) and (max-width: 989px) {
+    .body {
+        background: black;
+    }
+    .logo {
+        width: 100%;
+        text-align: center;
+    }
+    .banner-top {
+        display: none;
+    }
+    .primero {
+        width: 100%;
+    }
+    .primero figure {
+        height: 300px;
+        overflow: hidden;
+    }
+    .segundo {
+        width: 50%;
+    }
+    .tercero {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 990px) and (max-width: 1900px) {
+    .body {
+        background: black;
+    }
+}
+
+
+/* 
+            Media quieris de Bootstrap
+        */
+
+
+/* Small devices (landscape phones, 576px and up)  */
+
+@media (min-width: 576px) {}
+
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {}
+
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {}
+
+
+/* X-Large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {}
+
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+
+@media (min-width: 1400px) {}

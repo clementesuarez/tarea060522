@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#formulario {
+    border: 1px black (223, 46, 46) solid;
+    margin: auto;
+    padding: 30px;
+    background-color: #e1dad8;
+    display: block;
+    margin-top: 0em;
+    background-color: rgb(208, 240, 101);
+    background-size: auto;
+    width: 50%;
+}
+
+#sex {
+    margin-right: 40px;
+    margin-bottom: 30px;
+}
+
+#apellido {
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+#telefono {
+    margin-right: 40px;
+    margin-bottom: 50px;
+}
+
+#calificar {
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+#fecha {
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+#pass {
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+#red {
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+#enviarform {
+    margin-left: 400px;
+    margin-bottom: 20px;
+}
+
+.footer {
+    margin-left: 1500px;
+    margin-bottom: 50px;
+}
+
+
+/* el responsive*/
+
+@media screen and (min-width: 660px) and (max-width: 989px) {
+    .body {
+        background: black;
+    }
+    .logo {
+        width: 100%;
+        text-align: center;
+    }
+    .banner-top {
+        display: none;
+    }
+    .primero {
+        width: 100%;
+    }
+    .primero figure {
+        height: 300px;
+        overflow: hidden;
+    }
+    .segundo {
+        width: 50%;
+    }
+    .tercero {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 990px) and (max-width: 1900px) {
+    .body {
+        background: black;
+    }
+}
+
+
+/* 
+            Media quieris de Bootstrap
+        */
+
+
+/* Small devices (landscape phones, 576px and up)  */
+
+@media (min-width: 576px) {}
+
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {}
+
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {}
+
+
+/* X-Large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {}
+
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+
+@media (min-width: 1400px) {}

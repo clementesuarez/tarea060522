@@ -1,0 +1,10 @@
+    body {
+    background-color: darksalmon;
+    color: #f8f8f8;
+    font-family: Work Sans, sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+    body,
+    html {
+        font-size: 16px;
+    }

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/contacto.css">
+
+    <body>
+        <main>
+            <form id="formulario" action="recibeform.html" method="post">
+                <h2>Datos de contacto</h2>
+                <fieldset>
+                    <legend> Ingresa tus Datos de Contacto:</legend>
+
+
+                    <div>
+                        <input id="apellido" name="Apellido " required type=" text " value="Apellido " placeholder="Aqui tu apellido " />
+
+
+                        <input name="nombre" required type=" text " value="Nombre " placeholder="Aqui tu nombre " /> <br>
+                        <a>Ingreso su numero telefono incluir codigo de area:</a>
+                        </p>
+                        <input type="Tel" value="Telefono" placeholder="Ingreso su numero de Telefono" name="tel" id=tel1/>
+                        <br>
+                        <br>
+                        <p>
+                            Como Calificas nuestra web de 1 a 10
+                        </p>
+                        <input id="calificar" type="number" placeholder="" name="numero" id=number value="3" min="1" max="10" step="1" />
+                        <div id="fecha">
+                            Fecha <input type="date" id="date"> Hora <input type="time" id="time">
+                        </div>
+                        <div id="pass">
+                            <p>
+                                Ingreso su password, al menos una mayucula y un numero:
+                            </p>
+                            <input type="password" value="Password" placeholder="ingrese su password" name="password" id=password/>
+                        </div>
+
+
+                        <div id="sex">
+
+                            <input type="radio" name="sexo" value="H" /> Hombre
+                            <input type="radio" name="sexo" value="M" /> Mujer
+                        </div>
+                        <div id="red">
+                            <a>
+                        Red Social Favorita (marcar por defecto):
+                    </a><br><br>
+
+                            <input type="checkbox" name="empresa" checked/>Linkedin
+                            <input type="checkbox" name="empresa" checked/>Instagram
+                            <input type="checkbox" name="empresa" checked/>Facebook
+                            <input type="checkbox" name="empresa" checked/>Twitter
+                        </div>
+                        <div>
+                            <p>Ingresa tu canal favorito de contacto:</p>
+                            <Select name="combo">
+                    <optgroup label="Opciones basicas">
+                        <option value="1" label="por redes sociales"></option>
+                    </optgroup>
+                    
+                    <optgroup id="optg" label="Opcion de contacto">
+                        <option value="2" label="por mail "></option>
+                        <option value="3" label="por telefono "></option>
+                    </optgroup>
+                    
+                    </select>
+                            <input type="correo" value="mail" placeholder="Ingrese su mail">
+                        </div>
+
+                        <div>
+                            <input id="enviarform" type="submit" value="Enviar Formulario" />
+
+                        </div>
+
+                </fieldset>
+
+            </form>
+
+
+        </main>
+        <div class="home">
+
+            <a href="/tarea/index.html">
+                <h3>volver al Home</h3>
+            </a>
+
+
+        </div>
+
+        <footer class="footer ">
+            <aside>
+                <li>Telefono: 1166399875</li>
+                <li>clemens_arg@hotmail.com</li>
+                <li>Derechos Reservados &copy; 2022-2023</li>
+            </aside>
+        </footer>
+
+        <footer class="footerderechos ">
+
+        </footer>
+    </body>
+
+</html>
